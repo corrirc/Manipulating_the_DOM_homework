@@ -9,9 +9,10 @@ document.addEventListener("DOMContentLoaded", () =>{
         const form = event.target;
 
         const star = form.star.value;
+        const sports = form.sports.value;
 
         const result = document.querySelector("#sports-stars");
-        item = `${star}`;
+        item = `${star}, ${sports}`;
 
         createSports(item, result);
         form.reset();
