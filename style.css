@@ -1,4 +1,21 @@
 body{
   background-color: #00FF00;
   color: white;
+  font-family: 'VT323', monospace;
+}
+
+
+#heading{
+  position: fixed;
+  left: 500px;
+  top: 100px;
+  background-color: black;
+  border: solid;
+  padding: 10px;
+}
+
+#new-item-form{
+  position: fixed;
+  left: 500px;
+  top: 250px;
 }
