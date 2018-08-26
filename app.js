@@ -21,9 +21,9 @@ document.addEventListener("DOMContentLoaded", () =>{
       form.addEventListener("submit", formSubmit);
 
       const createSports = function(content, container){
-        const stuff = document.createElement('p');
-        stuff.textContent = content;
-        container.appendChild(stuff);
+        const list = document.createElement('p');
+        list.textContent = content;
+        container.appendChild(list);
       };
 
     });
