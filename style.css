@@ -19,18 +19,32 @@ body{
   position: fixed;
   left: 500px;
   top: 250px;
+  font-family: 'VT323', monospace;
 }
 
 .form-item{
   padding: 10px;
+  font-size: 32px;
 }
 
 .form-item1{
   padding: 10px;
+  font-size: 32px;
+}
+
+#star{
+  color: white;
+  background-color: black;
+
 }
 
 #sports{
-  background-color: white;
+  color: white;
+  background-color: black;
+  width: 100px;
+  height: 30px;
+  font-family: 'VT323', monospace;
+  font-size: 20px;
 }
 
 #sports-stars{
@@ -39,5 +53,10 @@ body{
 }
 
 #save{
-  background-color: white;
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 30px;
+  font-family: 'VT323', monospace;
+  font-size: 20px;
 }
