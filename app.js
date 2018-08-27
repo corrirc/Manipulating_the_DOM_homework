@@ -14,8 +14,13 @@ document.addEventListener("DOMContentLoaded", () =>{
         const result = document.querySelector("#sports-stars");
         item = `${star}, ${sports}`;
 
+
+
         createSports(item, result);
+
         form.reset();
+
+        // deleteSports();
       };
 
       form.addEventListener("submit", formSubmit);
@@ -25,5 +30,16 @@ document.addEventListener("DOMContentLoaded", () =>{
         list.textContent = content;
         container.appendChild(list);
       };
+
+    // form.addEventListener("submit", formSubmit)
+
+      // const deleteSports = function(content, container){
+      //   const deleteit = document.getElementById('p');
+      //   deleteit.textContent = content;
+      //   container.removeChild('p');
+      // };
+
+
+
 
     });
